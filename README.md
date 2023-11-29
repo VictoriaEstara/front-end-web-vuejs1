@@ -10,6 +10,8 @@ Kode proyek ini ditulis menggunakan bahasa pemrograman JavaScript dengan framewo
 
 Proyek ini dikembangkan menggunakan [Visual Studio Code](https://code.visualstudio.com/download) dengan memasang [Node.js](https://nodejs.org) V12+. Pastikan Anda memiliki kedua hal tersebut sebelum menjalankan proyek.
 
+Package tambahan yang saya gunakan dalam proyek ini adalah [Node.js](https://nodejs.org/en), [Cors.js](https://www.npmjs.com/package/cors), [Express.Js](https://expressjs.com/en/starter/installing.html).
+
 ## Cara Penggunaan
 
 1. Buka proyek menggunakan Visual Studio Code.
@@ -18,9 +20,12 @@ Proyek ini dikembangkan menggunakan [Visual Studio Code](https://code.visualstud
 npm install
 ```
 3. Kemudian tuliskan kode berikut pada terminal untuk menampilkan tautan local/host website
-```
+```sh
 npm run dev
 ```
 4. Klik tautan local/host/ untuk membuka website pada browser (saya menggunakan [Vivaldi Browser](https://vivaldi.com/download/)).
-
-Note: Package tambahan yang saya gunakan dalam proyek ini adalah [Node.js](https://nodejs.org/en), [Cors.js](https://www.npmjs.com/package/cors), [Express.Js](https://expressjs.com/en/starter/installing.html)
+5. Untuk mengetahui port yang digunakan sebagai back-end, ketik kode berikut pada terminal.
+```sh
+cd express
+node index.js
+```
